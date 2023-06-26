@@ -40,7 +40,7 @@ import { toast } from 'react-toastify';
      useEffect(()=>{  
            display();  
            
-           },[props.keys]) 
+           },[props.keys,datas,currentpage]) 
            
   //sessionStorage.clear()
      const display=async()=>{   
