@@ -5,7 +5,7 @@ import{toast} from 'react-toastify'
 import axios  from 'axios'; 
 import { Button } from 'react-bootstrap'; 
 import { useNavigate } from 'react-router-dom';
-const url="http://localhost:5000/"; 
+const url="https://stack-back-qu4a.onrender.com";
 function TextControlsExample() { 
  const [catagory, setCatagory]=useState("") 
   const [keys,setKeys]=useState('') 
