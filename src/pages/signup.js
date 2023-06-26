@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { toast } from 'react-toastify'; 
 import axios from "axios";
- const url="http://localhost:5000/"; 
+ const url="https://stack-back-qu4a.onrender.com";
  function Signup() { 
     const navi=useNavigate()
     const [email,setEmail]=useState(''); 
