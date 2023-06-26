@@ -9,7 +9,7 @@ import { toast } from 'react-toastify';
  import { useNavigate } from 'react-router-dom'; 
  import Base from '../components/Base';
 
- const url="http://localhost:5000/"; 
+ const url="https://stack-back-qu4a.onrender.com";
 
  function Signup(props) {   
  const [datas,setData]=useState([]) 
