@@ -40,7 +40,7 @@ import { toast } from 'react-toastify';
      useEffect(()=>{  
            display();  
            
-           },[props.keys,datas,currentpage]) 
+           }) 
            
   //sessionStorage.clear()
      const display=async()=>{   
@@ -116,14 +116,14 @@ import { toast } from 'react-toastify';
 <ul className='pagination'> 
 
 <li className='page-item'>  
-<a  href='/' className='page-link'onClick={prePage}>prev</a>
+<a  href='#' className='page-link'onClick={prePage}>prev</a>
 </li>
 { Number.map((n,i)=>(
 <li className={`page-item ${currentPage=== n?'active':''}`} key={i}> 
-<a href='/' className='page-link'onClick={()=>curPage(n)}>{n}</a>
+<a href='#' className='page-link'onClick={()=>curPage(n)}>{n}</a>
 </li>  ))  }
 <li> 
-<a href='/'  className='page-link'onClick={nxtPage}>next</a>
+<a href='#'  className='page-link'onClick={nxtPage}>next</a>
 </li>
 
 
