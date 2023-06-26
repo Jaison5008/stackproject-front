@@ -6,7 +6,7 @@ import {  useEffect, useState } from 'react';
 import { useParams,useNavigate } from 'react-router-dom'; 
 import Card from 'react-bootstrap/Card';
 
-const url="https://stack-back-qu4a.onrender.com";
+const url="https://stack-back-qu4a.onrender.com/";
 function FormFloatingTextareaExample() {  
     const [data,setData]=useState([])  
     const [data1,setData1]=useState('')
