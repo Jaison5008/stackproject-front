@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Base from "../components/Base"
 import axios from "axios";
- const url="https://stack-back-qu4a.onrender.com";
+ const url="https://stack-back-qu4a.onrender.com/";
 
 
 function Login() { 
