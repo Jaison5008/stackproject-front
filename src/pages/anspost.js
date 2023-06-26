@@ -20,7 +20,7 @@ function FormFloatingTextareaExample() {
   useEffect(()=>{  
     
     dispalay()
-  },[])  
+  })  
   
     const  dispalay= async()=>{ 
       try{
